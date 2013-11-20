@@ -1,0 +1,48 @@
+import(methods,Matrix,MASS,
+       xtable,testthat)
+importFrom(akima,
+           interp)
+importFrom(stats,
+	   dnorm, pnorm, qnorm, rnorm,
+	   runif,
+	   integrate, uniroot, optimize)
+importFrom(stabledist,
+           dstable,rstable,pstable,qstable)
+importFrom(fBasics,
+           .qStableFit)
+importFrom(numDeriv,
+           jacobian)
+exportClass(Estim)
+exportMethods(show)
+exportClass(Best_t)
+exportMethods("+")
+
+export(
+    "getTime_",
+    "PrintDuration",
+    "ComputeDuration",
+    "PrintEstimatedRemainingTime",
+    "expect_almost_equal",
+    "get.StatFcts",
+    "get.abMat",
+    "ComplexCF",
+    "jacobianComplexCF",
+    "ComputeFirstRootRealeCF",
+    "IntegrateRandomVectorsProduct",
+    "RegularisedSol",
+    "sampleComplexCFMoment",
+    "sampleRealCFMoment",
+    "Estim",
+    "McCullochParametersEstim",
+    "IGParametersEstim",
+    "KoutParametersEstim",
+    "GMMParametersEstim",
+    "CgmmParametersEstim",
+    "MLParametersEstim",
+    "Estim_Simulation",
+    "ComputeStatObjectFromFiles",
+    "TexSummary",
+    "ConcatFiles",
+    "ComputeBest_t",
+    "ComputeBest_tau"
+    )

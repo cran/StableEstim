@@ -1,0 +1,62 @@
+\name{ComputeFirstRootRealeCF}
+\alias{ComputeFirstRootRealeCF}
+\title{
+  first root of the empirical characteristic function.
+}
+\description{
+  Computes the first root of the real part of the empirical characteristic function.
+}
+\usage{
+ComputeFirstRootRealeCF(x, ..., tol = 0.001, maxIter = 100,
+                        lowerBand = 1e-04, upperBand = 30)
+}
+%- maybe also 'usage' for other objects documented here.
+\arguments{
+  \item{x}{
+    Data used to perform the estimation: vector of length n.
+  }
+  \item{\dots}{
+   Other arguments to pass to the optimisation function .
+  }
+  \item{tol}{
+    Tolerance to accept the solution; default=1e-3
+  }
+  \item{maxIter}{
+    maximum number of iteration in the Welsh algorithm; default=100
+  }
+  \item{lowerBand}{
+    Lower band of the domain where the graphical seach is performed;
+    default=1e-4
+  }
+  \item{upperBand}{
+    Lower band of the domain where the graphical seach is performed;
+    default=30
+  }
+}
+\details{
+  The Welsh algorithm is first applied. If it fails to provide a
+  satisfactory value (< \code{tol}), a graphical/ numerical  approach is
+  used. We first plot the real part of the eCF vs t in order to determine the
+  first zero directly and use it as the initial guess of a numerical
+  minimisation routine.
+  
+}
+\value{
+  \code{numeric}: first zero of the real part of the eCF.
+}
+\references{ % bibentry: welsh1986implementing
+Welsh A (1986).
+``Implementing empirical characteristic function procedures.''
+\emph{Statistics \& probability letters}, \bold{4}(2), pp. 65--67.
+% end:bibentry:  welsh1986implementing
+}
+
+\seealso{
+  \code{\link{ComplexCF}}
+}
+\examples{
+ set.seed(345); x <- rstable(500,1.5,0.5)
+ ComputeFirstRootRealeCF(x)
+}
+
+\keyword{stable-functions}
