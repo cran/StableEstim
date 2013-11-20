@@ -1,7 +1,5 @@
 import(methods,Matrix,MASS,
        xtable,testthat)
-importFrom(akima,
-           interp)
 importFrom(stats,
 	   dnorm, pnorm, qnorm, rnorm,
 	   runif,

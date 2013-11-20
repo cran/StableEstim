@@ -1,5 +1,5 @@
-fa8392a8d116fece9ca7ea5714d53fa9 *DESCRIPTION
-5fac31add2298c8c1a0697ee4a4c6545 *NAMESPACE
+49e3169fad1aff9df36b15415bd64ad5 *DESCRIPTION
+bc68e38ef0a1491594a55d13ea9676c0 *NAMESPACE
 c7e8067fd8ec1c16514991f9e13c9d02 *R/BestT.R
 57310ea0529c196c5c6ae4e5eaee14b6 *R/BestT_Class.R
 0b004bec611b6456df60741265744f6f *R/CFbasedMoment.R
@@ -10,7 +10,8 @@ b3b44a853ab7892e0290d813c68c00e3 *R/Estim.R
 ecd92cd3207a2e7b8d0046befe2f8b23 *R/ExternalPackageInterface.R
 382e62d1bb739682e9993361cc9a448e *R/GMMParamsEstim.R
 59a2db63c5ae2361f92a09ebf577032f *R/InitialGuess.R
-f43816011fa3559fc0e6cbee76f317be *R/KoutParamsEstim.R
+be2435ee337ac5f731524dfb8f6fc189 *R/Interpolation.R
+eef6b4381bada082f8b747ed4cccd469 *R/KoutParamsEstim.R
 b93e06be1f93ef91abd3578f875a4a6e *R/MLParamsEstim.R
 01dfed2d861143a7902028ade98ee701 *R/MultiDimIntegral.R
 4ecfaaf6b5d7a48a84a4b901c02552cd *R/OutputFileManip.R
@@ -26,7 +27,7 @@ b5ab19a08a2534380851d81c5ccea4c3 *inst/Examples/BestT_examples.R
 0718765a32025ee5edefb7d2787e1a55 *inst/Examples/Estim_examples.R
 ac7539e9dccd3b9ddda460b427dafd74 *inst/Examples/RegularInverse_examples.R
 d0c0b403cb158d975afa953aeba79c81 *inst/Examples/Simulation_examples.R
-52349e3c78e5e28372dcdd5c02e46249 *inst/Examples/Start.R
+1831a9d8fc8c8b027c6a8bf8d44dc919 *inst/Examples/Start.R
 b9beb68288fad210bcd5a37f86acbe7c *inst/Examples/VectIntegral_examples.R
 3862f142bf4abf772c2fa10618069971 *inst/Examples/examplesInDoc.R
 f307a1e1a665f6a4ffe7f0024c69a2ef *inst/Examples/file1.csv
@@ -34,7 +35,6 @@ f307a1e1a665f6a4ffe7f0024c69a2ef *inst/Examples/file1.csv
 ca339c9bcd0330f460487dff0691b965 *inst/Examples/fileSum.csv
 1f8fa79a99cb65cf018bf48be1caba73 *inst/Examples/test1.csv
 ebb04e6eca87f5cce37ff1b58614b06d *inst/Examples/test2.csv
-91930232e92a6df406e1aab6fb624072 *inst/README
 8071168932aa061c011646a3f05cbbd8 *man/BestTClass.Rd
 8da0c91d12c2247c5e5ce1e3fd7a3ed1 *man/CF.Rd
 487a596e820c3c73681a6371cf730350 *man/CgmmParamsEstim.Rd
@@ -56,7 +56,7 @@ f55cf3d410a0ebac629487fb50204abe *man/KogonParamsEstim.Rd
 805630f3b956a46c346ee5198b5d343f *man/Output.Rd
 1d976e7249d3244be2cba7f72fe047e6 *man/PrintDuration.Rd
 c1880b81a3c9126faf86cbd74d22d3fc *man/PrintEstimatedRemainingTime.Rd
-6fea618e31c1e054083a1bb83178e960 *man/StableEstim-package.Rd
+a1ccb59e8f46a4f638bbc10b42879f07 *man/StableEstim-package.Rd
 494e488f0db66f5c16b390929bcba821 *man/StatFcts.Rd
 79bcf46db118273610d056f0be322dc6 *man/TexSummary.Rd
 4fa864736bc74cd476b8ba61fd22e626 *man/abMat.Rd

@@ -199,7 +199,7 @@ getTpoints <- function(data,spacing,alpha,...){
 
 getUpoints <- function(data,spacing,alpha,...){
     if (is.null(list(...)$nb_u))
-        nb_u <- GetL(alpha,length(data))
+        nb_u <- getnbrLpoints(alpha,length(data))
     else nb_u <- list(...)$nb_u
 
     An <- ComputeFirstRootRealeCF(x=data)
@@ -213,36 +213,6 @@ getUpoints <- function(data,spacing,alpha,...){
            "free"={u <- list(...)$u_points}
            )
     u
-}
-
-## Choose Nbr of points from Koutrouvelis tables by linear interpolation
-## K for first regression : alpha and gamma
-## L for second regression: beta and delta
-
-getnbrTpoints <- function(alpha,n)
-{
-    xA <- rep(c(1.9,1.5,1.3,1.1,0.9,0.7,0.5,0.3),each=3)
-    x0 <- alpha
-    if (alpha < min(xA)) x0 <- min(xA)
-    if (alpha > max(xA)) x0 <- max(xA)
-    yN <-  rep(c(200,800,1600),8)
-    zK <- c(9,9,10,11,11,11,22,16,14,24,18,15,28,22,18,30,24,20,86,68,56,134,124,118)
-    K <- interp(x=xA,y=yN,z=zK,xo=x0,yo=n)$z
-    if(is.na(K))K=12
-    K
-}
-
-GetL <- function(alpha,n)
-{
-  xA <- rep(c(1.9,1.5,1.1,0.9,0.7,0.5,0.3),each=3)
-  x0 <- alpha
-  if (alpha < min(xA)) x0 <- min(xA)
-  if (alpha > max(xA)) x0 <- max(xA)
-  yN <-  rep(c(200,800,1600),7)
-  zK <- c(9,10,11,12,14,15,16,18,17,14,14,14,24,16,16,40,38,36,70,68,66)
-  l <- interp(x=xA,y=yN,z=zK,xo=x0,yo=n)$z
-  if(is.na(l))l=14
-  l
 }
 
 YCov <- function (t ,N, alpha , beta,gam)

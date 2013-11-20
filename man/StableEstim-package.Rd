@@ -37,7 +37,10 @@ function and tools to run Monte Carlo simulations.
 Tarak Kharrat, Georgi N. Boshnakov
 }
 \note{
-This package is related to upcoming work by the authors where the
+This version (2) of the package implements a 2D interpolation routine
+(and hence doesn't call package 'akima' anymore). Therefore,
+\pkg{StableEstim} is now under GPL license.
+The package is related to upcoming work by the authors where the
 different methods are compared using MC simulations.
 }
 

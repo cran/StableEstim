@@ -3,7 +3,6 @@
 #===================================================================================================================
 require("stabledist")
 require("testthat") #suggest
-require("akima")
 require("numDeriv")
 require("stringr")
 require("optimx")
