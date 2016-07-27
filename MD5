@@ -1,5 +1,5 @@
-49e3169fad1aff9df36b15415bd64ad5 *DESCRIPTION
-bc68e38ef0a1491594a55d13ea9676c0 *NAMESPACE
+9a20236ce22e9cb0f2ba86c8c37d4790 *DESCRIPTION
+39ba9e58ff079f2476b473d1b6d4ae6f *NAMESPACE
 c7e8067fd8ec1c16514991f9e13c9d02 *R/BestT.R
 57310ea0529c196c5c6ae4e5eaee14b6 *R/BestT_Class.R
 0b004bec611b6456df60741265744f6f *R/CFbasedMoment.R
@@ -17,7 +17,7 @@ b93e06be1f93ef91abd3578f875a4a6e *R/MLParamsEstim.R
 4ecfaaf6b5d7a48a84a4b901c02552cd *R/OutputFileManip.R
 5f3fe543016f01ae5b982ac13f7678a3 *R/RegularInverse.R
 c7917395dda9a24114357f8104b2c047 *R/Simulation.R
-ba48a61a0fd45966f3611ca0a978b001 *R/ToolsFct.R
+1107c9534f1fca6f84d8a864393c31a3 *R/ToolsFct.R
 40139887e5ebba6be509f04bb73a6251 *R/WeightingMatrix.R
 85c10e213f4832c25ae087169eec022e *R/cte.R
 2767af17b6ebd2412694645c357f345e *R/eCFfirstZero.R
@@ -56,7 +56,7 @@ f55cf3d410a0ebac629487fb50204abe *man/KogonParamsEstim.Rd
 805630f3b956a46c346ee5198b5d343f *man/Output.Rd
 1d976e7249d3244be2cba7f72fe047e6 *man/PrintDuration.Rd
 c1880b81a3c9126faf86cbd74d22d3fc *man/PrintEstimatedRemainingTime.Rd
-a1ccb59e8f46a4f638bbc10b42879f07 *man/StableEstim-package.Rd
+8163a0977ee7d454073ac9c0a963d732 *man/StableEstim-package.Rd
 494e488f0db66f5c16b390929bcba821 *man/StatFcts.Rd
 79bcf46db118273610d056f0be322dc6 *man/TexSummary.Rd
 4fa864736bc74cd476b8ba61fd22e626 *man/abMat.Rd

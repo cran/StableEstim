@@ -5,9 +5,11 @@
   stable law estimation functions
 }
 \description{
-A collection of methods to estimate the 4 parameters of the stable
-law. The package also provides functions to compute the characteristic
-function and tools to run Monte Carlo simulations.
+
+  A collection of methods to estimate the four parameters of stable
+  laws. The package also provides functions to compute the
+  characteristic function and tools to run Monte Carlo simulations.
+
 }
 \details{
   The main functions of the package are briefly described below:
@@ -37,11 +39,15 @@ function and tools to run Monte Carlo simulations.
 Tarak Kharrat, Georgi N. Boshnakov
 }
 \note{
-This version (2) of the package implements a 2D interpolation routine
-(and hence doesn't call package 'akima' anymore). Therefore,
-\pkg{StableEstim} is now under GPL license.
-The package is related to upcoming work by the authors where the
-different methods are compared using MC simulations.
+  Version 1 of this package had a somewhat restricted license since
+  it needed package \pkg{akima} in some computations.
+
+  In version 2 of the package we implemented a 2D interpolation routine
+  and removed the dependency on \pkg{akima}.  Therefore,
+  \pkg{StableEstim} is now under GPL license.  The package is related to
+  upcoming work by the authors where the different methods are compared
+  using MC simulations.
+
 }
 
 \references{% bibentry:all

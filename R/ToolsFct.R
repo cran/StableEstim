@@ -76,7 +76,15 @@ PrintEstimatedRemainingTime <- function(ActualIter,ActualIterStartTime,TotalIter
             answer <- as.logical((diff <- sum(abs(actual-expected))) <= tolExpect)
         }
 
-        expectation(identical(answer,TRUE),
+
+        type <- identical(answer, TRUE)
+        ## 2016-07-26 TODO: make this unconditiona in the near future.
+        if(packageVersion("testthat") >= "1.0.0")
+            ## should be in c("success", "failure", "error", "skip", "warning")
+            type <- if(type) "success"
+                    else "failure"
+
+        expectation(type,
                     paste("absolute error= ",diff ," > ", tolExpect))
     }
 }
@@ -142,10 +150,10 @@ checkCov <- function(sig)
         condSig <- -Inf
 
         tr <- tryCatch(rcond(sig),
-                       error=function(e)e) 
+                       error=function(e)e)
         err <- inherits(tr, "error")
         if ( (!err) &&  ( !is.nan(tr) ) && ( !is.na(tr) ) ) {condSig <- tr}
-        
+
         if (condSig < crit_cond){
             diag(res) <- diag(sig)
         }
