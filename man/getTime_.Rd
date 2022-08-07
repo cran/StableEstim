@@ -1,7 +1,7 @@
 \name{getTime_}
 \alias{getTime_}
 \title{
-  read time.
+  Read time
 }
 \description{
   Reads the time when the function is called.
@@ -11,15 +11,14 @@ getTime_()
 }
 
 \value{
-Returns a \code{numeric}.
+  a \code{numeric}.
 }
 \seealso{
-  \code{\link{PrintDuration}},\code{\link{PrintEstimatedRemainingTime}},
+  \code{\link{PrintDuration}},
+  \code{\link{PrintEstimatedRemainingTime}},
   \code{\link{ComputeDuration}}
 }
 \examples{
-ti=getTime_()
+ti <- getTime_()
 }
-
 \keyword{general-functions}
-

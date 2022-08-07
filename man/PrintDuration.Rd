@@ -1,10 +1,10 @@
 \name{PrintDuration}
 \alias{PrintDuration}
 \title{
- print duration
+ Print duration
 }
 \description{
-  print duration in human readable format.
+  Print duration in human readable format.
 }
 \usage{
 PrintDuration(t, CallingFct = "")
@@ -25,12 +25,10 @@ PrintDuration(t, CallingFct = "")
 }
 
 \examples{
-ti=getTime_()
-for (i in 1:100) x=i*22.1
-tf=getTime_()
-duration=ComputeDuration(ti,tf)
+ti <- getTime_()
+for (i in 1:100) x = i*22.1
+tf <- getTime_()
+duration <- ComputeDuration(ti, tf)
 PrintDuration(duration, "test")
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
 \keyword{general-functions}

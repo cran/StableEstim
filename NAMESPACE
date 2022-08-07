@@ -1,4 +1,4 @@
-import(methods, Matrix, MASS, xtable, testthat)
+import(methods, Matrix)
 
 importFrom(stats, dnorm, pnorm, qnorm, rnorm,
 	          runif,
@@ -7,17 +7,18 @@ importFrom(graphics, plot)
 importFrom(stats, dunif, lm, nlminb, optim, sd, var)
 importFrom(utils, read.csv, read.table, toLatex, write.table, packageVersion)
 
-importFrom(stabledist, dstable,rstable,pstable,qstable)
+importFrom(stabledist, dstable, rstable, pstable, qstable)
 importFrom(fBasics, .qStableFit)
 importFrom(numDeriv, jacobian)
-
-
-
-
+importFrom(MASS, lm.gls)
+importFrom(testthat, expectation, expect_that, expect_equal)
+importFrom(xtable, xtable, "align<-", "digits<-", "display<-")
+importFrom(Rdpack, reprompt)
+    
 exportClass(Estim)
-exportMethods(show)
 exportClass(Best_t)
-exportMethods("+")
+
+exportMethods("+", show, initialize)
 
 export(
     getTime_,
@@ -46,5 +47,8 @@ export(
     TexSummary,
     ConcatFiles,
     ComputeBest_t,
-    ComputeBest_tau
+    ComputeBest_tau,
+
+    ## re-exports
+    rstable
     )
