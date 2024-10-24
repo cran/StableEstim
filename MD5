@@ -1,6 +1,6 @@
-b84c03b0c9345fc7dd334b406cfd69d1 *DESCRIPTION
+2ee4dc6a346b66e812898ab930175ad7 *DESCRIPTION
 ee8de88e9c2c7b71acbd9c98de16605b *NAMESPACE
-8fa4ebd25136a3354089edc2fa5c2094 *NEWS.md
+e83a0a8a9cfd9738dfa4807726dd34c7 *NEWS.md
 c7e8067fd8ec1c16514991f9e13c9d02 *R/BestT.R
 57310ea0529c196c5c6ae4e5eaee14b6 *R/BestT_Class.R
 0b004bec611b6456df60741265744f6f *R/CFbasedMoment.R
@@ -25,7 +25,7 @@ c7917395dda9a24114357f8104b2c047 *R/Simulation.R
 52943a69c351cb9512d34962c89c82c8 *R/stableCF.R
 dfbb7e1122ca70f270199f40b4b0b373 *R/tSchemes.R
 0d23e6c6b7033432a25ae9422d54b46d *README.md
-348b7151f92c2e64708e253d9ee316dd *build/partial.rdb
+d122bd53ab1ea0316b703540fbbdaa4c *build/partial.rdb
 b5ab19a08a2534380851d81c5ccea4c3 *inst/Examples/BestT_examples.R
 0718765a32025ee5edefb7d2787e1a55 *inst/Examples/Estim_examples.R
 ac7539e9dccd3b9ddda460b427dafd74 *inst/Examples/RegularInverse_examples.R
@@ -38,7 +38,7 @@ f307a1e1a665f6a4ffe7f0024c69a2ef *inst/Examples/file1.csv
 ca339c9bcd0330f460487dff0691b965 *inst/Examples/fileSum.csv
 1f8fa79a99cb65cf018bf48be1caba73 *inst/Examples/test1.csv
 ebb04e6eca87f5cce37ff1b58614b06d *inst/Examples/test2.csv
-0dba563744cf48d230263bc422b477cb *inst/REFERENCES.bib
+6a728732e75e4afa31d57683d46c278a *inst/REFERENCES.bib
 004dca4797166608916fe70f34e0a881 *man/Best_t-class.Rd
 e34292eb6402f25860c830f439faa1e0 *man/CgmmParamsEstim.Rd
 36c487e4ca7c9c771468eebba212e0a6 *man/ComplexCF.Rd
@@ -66,7 +66,7 @@ ac45c7c7b972a774cf00e05a97db60e4 *man/StatFcts.Rd
 d2bbc1c2db1f9e2fb2d74e3b0018820d *man/TexSummary.Rd
 eee7cd4a02bcb99472030d12a64ebb07 *man/expect_almost_equal.Rd
 d5b52578c74d85d21800668b1bfc2a10 *man/get.StatFcts.Rd
-238d23f0b3ad9ecc6ed4bece5ce922f7 *man/get.abMat.Rd
+e0a69c4afad85dfe660e84b1760c91a2 *man/get.abMat.Rd
 62ede3a17a7ce6385b36aa3bb65c057d *man/getTime_.Rd
 b2db6ccc17ea5de691be072a64db78a7 *man/jacobianComplexCF.Rd
 7350a514877d4f0018e16b584396ce8d *man/sampleComplexCFMoment.Rd

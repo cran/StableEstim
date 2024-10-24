@@ -9,7 +9,7 @@
   procedure.
 }
 \usage{
-abMat()
+get.abMat()
 }
 \value{
   a 2-columns matrix containing a wide range of parameters \eqn{\alpha}
